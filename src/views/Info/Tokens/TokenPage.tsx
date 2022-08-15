@@ -204,7 +204,7 @@ const TokenPage: React.FC<React.PropsWithChildren<{ routeAddress: string }>> = (
                   </Text>
 
                   <Text mt="24px" bold color="secondary" fontSize="12px" textTransform="uppercase">
-                    {t('Transactions 24H')}
+                    {t('Bonjour 24H')}
                   </Text>
                   <Text bold fontSize="24px">
                     {formatAmount(tokenData.txCount, { isInteger: true })}
